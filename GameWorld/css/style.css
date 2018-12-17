@@ -1,0 +1,159 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+.banner{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    right: 500px;
+    height: 320px;
+    width: 750px;
+    border: 1px blue solid;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: start;
+    color: green;
+    margin: 0 auto;
+}
+.banner li{
+    list-style: none;
+    color: green;
+    font-weight: bold;
+}
+#logo{
+    color: black;
+    font-size: 37px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 8px;
+}
+#logo-link {
+    color: black;
+    text-decoration: none;
+    font-size: 37px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;  
+}
+#main-container{
+    position:  relative;
+}
+#main-nav{
+    height: 50px;
+    background-color: green;
+}
+#main-nav a{
+    display: inline-block;
+    float: right;
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+#main-nav li :hover{
+    background-color: darkgreen;
+}
+#main-nav ul{
+    list-style: none;
+    background-color: green;
+    margin: 0 auto;
+    height: 50px;
+    text-decoration: none;
+}
+#main-nav li{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+#footer{
+    background-color: grey;
+    text-align: center;
+    height: 20px;
+    margin-top: 10px;
+    opacity:0.5;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#title{
+    color: green;
+}
+#playstation{
+    display: inline-block;
+    border: 1px solid blue;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    padding: 15px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#playstation a{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#playstation a:hover{
+    background-color: darkblue;
+}
+#PC{
+    display: inline-block;
+    border: 1px solid yellow;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 325px;
+    padding: 15px;
+    width: 200px;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+#PC a{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#PC a:hover{
+    background-color: #cccc00
+}
+#nintendo{
+    display: inline-block;
+    border: 1px solid red;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    padding: 15px;
+    width: 230px;
+    right: 0px;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#nintendo a{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#nintendo a:hover{
+    background-color: darkred;
+}

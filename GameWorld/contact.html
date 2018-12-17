@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <!--character set-->
+        <meta charset= "UTF-8">
+        <!--website describtion-->
+        <meta name = "describtion"  content= "my first website!">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title> Contact Us </title>
+    </head>
+    <body>
+        <div id = "main-nav">
+            <div id = "logo"><a href = "index.html" id = "logo-link">GameWorld. </a> </div>
+                <nav>
+                    <ul>
+                       <li><a href ="games.php">Games</a></li>
+                        <li><a href ="index.html">Home</a></li>
+                        <li><a href ="about.html">About us</a></li>
+                        <li><a href ="Contact.html">Contact</a></li>
+                        <li><a href ="checkout.html">Checkout</a></li>
+                    </ul>
+                </nav>    
+            </div>
+        </div>   
+        
+        <div class = "banner">
+            <form action = "calculate.php" methond = "POST">
+                <ul>
+                    <li>
+                    <label> Your Name:</label>   
+                    <input type = text name = "Your_Name">  
+
+                    </li>
+                    <li>
+                    <label> Last Name:</label>  
+                    <input type = text name = "Your_Last_Name">  
+                    </li>
+                    <li>
+                        <label> Your E-Mail:</label>
+                        <input type = "email" name = Your_E-Mail>
+                    </li>
+                    <li>
+                        <label> Date of Birth</label>
+                        <input type ="date" name = Date_of_Birth>
+                    </li>
+                    <li>
+                        <label> Your Country</label>
+                        <input type = text name = "Country"
+                    </li>
+
+                    <li>
+                        <label> Additional Information</label>
+                        <textarea></textarea>
+
+                    </li>
+                    <li>
+                    <input type = "checkbox"> <label> Newspaper </label>
+
+                    </li>
+                    <li>
+                        <input type ="submit" name = "Send" value = "Send">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div id = "footer"><footer>© 2018</footer></div>  
+    </body>
+</html>
